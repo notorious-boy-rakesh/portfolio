@@ -40,12 +40,9 @@ export function Hero() {
             }} className="bg-white text-black px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-gray-200 transition-colors">
               Explore
             </button>
-            <button onClick={(e) => {
-              e.preventDefault();
-              alert('Resume feature is currently in development!');
-            }} className="border border-white/30 text-white px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-white/10 transition-colors">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/30 text-white px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-white/10 transition-colors inline-block text-center">
               Resume
-            </button>
+            </a>
           </motion.div>
         </motion.div>
       </div>
