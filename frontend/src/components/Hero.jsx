@@ -40,7 +40,16 @@ export function Hero() {
             }} className="bg-white text-black px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-gray-200 transition-colors">
               Explore
             </button>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/30 text-white px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-white/10 transition-colors inline-block text-center">
+            <a 
+              href="/resume.pdf" 
+              download="Rakesh_Resume.pdf" 
+              onClick={() => {
+                setTimeout(() => {
+                  window.open('/resume.pdf', '_blank');
+                }, 1000);
+              }}
+              className="border border-white/30 text-white px-8 py-3 text-xs md:text-sm font-bold tracking-widest uppercase hover:bg-white/10 transition-colors inline-block text-center"
+            >
               Resume
             </a>
           </motion.div>
