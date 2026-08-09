@@ -1,6 +1,15 @@
 import { motion } from 'framer-motion';
 const experiences = [
   {
+    title: '3D Animated Frontend',
+    company: 'Front-End Project',
+    location: 'Personal',
+    period: 'August 2026',
+    description: 'Designed and developed a highly interactive 3D animated frontend interface. Focused on modern web animations, engaging user experiences, and responsive design.',
+    skills: ['HTML', 'CSS', 'JavaScript', '3D Animation'],
+    link: 'https://notorious-boy-rakesh.github.io/animated-frontend/'
+  },
+  {
     title: 'Ecommerce for Gadgets',
     company: 'Full-Stack Project',
     location: 'Personal',
