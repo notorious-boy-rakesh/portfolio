@@ -1,6 +1,15 @@
 import { motion } from 'framer-motion';
 const experiences = [
   {
+    title: 'BroCode Secure Chat',
+    company: 'Full-Stack Project',
+    location: 'Personal',
+    period: 'September 2026',
+    description: 'Developed a real-time secure chat application featuring instant messaging, user authentication, and a responsive, modern interface. Built with a focus on security and seamless user experience.',
+    skills: ['React.js', 'Node.js', 'Express.js'],
+    link: 'https://bro-code-security.vercel.app/'
+  },
+  {
     title: '3D Animated Frontend',
     company: 'Front-End Project',
     location: 'Personal',
